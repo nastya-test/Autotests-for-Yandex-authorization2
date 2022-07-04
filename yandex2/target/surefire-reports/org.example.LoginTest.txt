@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: org.example.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 3, Skipped: 0, Time elapsed: 65.097 s <<< FAILURE! - in org.example.LoginTest
+org.example.LoginTest.loginTest  Time elapsed: 13.337 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#passp\-field\-passwd"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-JC201A1', ip: '172.28.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51999}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b4308cf4d9f3ba9cfc8de8179a86663d
+*** Element info: {Using=id, value=passp-field-passwd}
+	at org.example.LoginTest.loginTest(LoginTest.java:35)
+
+org.example.LoginTest.test2  Time elapsed: 2.387 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[Такого аккаунта нет]> but was:<[Логин не указан]>
+	at org.example.LoginTest.test2(LoginTest.java:65)
+
+org.example.LoginTest.test3  Time elapsed: 2.236 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[Неверный пароль]> but was:<[]>
+	at org.example.LoginTest.test3(LoginTest.java:73)
+
+org.example.LoginTest.test4  Time elapsed: 12.23 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".PreviousStepButton"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-JC201A1', ip: '172.28.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52103}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d61d504a80406b8cc018e12ad336a8d4
+*** Element info: {Using=class name, value=PreviousStepButton}
+	at org.example.LoginTest.test4(LoginTest.java:80)
+
+org.example.LoginTest.test6  Time elapsed: 26.186 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-JC201A1', ip: '172.28.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f838bb67f1b75536db6e814317b26a22
+*** Element info: {Using=class name, value=Button2_type_submit}
+	at org.example.LoginTest.test6(LoginTest.java:112)
+

@@ -1,0 +1,6 @@
+PageObject\RegistrationPage.class
+org\example\ConfProperties.class
+org\example\LoginTest.class
+PageObject\LoginPage.class
+org\example\BaseTest.class
+PageObject\ProfilePage.class
